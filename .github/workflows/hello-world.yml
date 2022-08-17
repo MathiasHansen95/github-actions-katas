@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     container: gradle:6-jdk11
     steps:
-      - name: clone-down
+      - name: clone-downe
         uses: actions/checkout@v2
       - name: upload Repo
         uses: actions/upload-artifact@v2
